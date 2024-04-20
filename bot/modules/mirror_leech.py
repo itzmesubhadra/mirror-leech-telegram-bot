@@ -377,7 +377,7 @@ bot.add_handler(
 )
 bot.add_handler(
     MessageHandler(
-        qb_leech, filters=(filters.command(BotCommands.QbLeechCommand) | (filters.text & filters.regex(r'^magnet', re.IGNORECASE))) & CustomFilters.authorized
+        qb_leech, filters=(command(BotCommands.QbLeechCommand) | (filters.text & filters.regex(r'^magnet', re.IGNORECASE))) & CustomFilters.authorized
     )
 )
 bot.add_handler(
