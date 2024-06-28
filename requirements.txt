@@ -33,3 +33,4 @@ tgcrypto
 urllib3
 uvloop
 xattr
+yt-dlp
